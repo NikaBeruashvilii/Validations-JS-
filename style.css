@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-area {
+    margin-top: 50px !important;
+}
+
+.contact-adder-form {
+    background-color: rgb(6, 30, 49);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.contact-adder-form h1,
+button,
+label {
+    color: white;
+}
+
+.contact-adder-form .form-group {
+    margin: 15px;
+}
+
+.error-border {
+    border: 2px solid red !important;
+}
+
+.card img {
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.contact-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-cards .card {
+    margin:20px 40px 0px 0px;
+}
